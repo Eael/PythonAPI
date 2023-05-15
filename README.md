@@ -14,3 +14,4 @@ source .venv/bin/activate didn't work rather source .venv/Scripts/activate worke
 Iterating through the directory created a .DS_Store file which caused problems. You can ignore it using "for file in glob('ic_*'):"
 
 /opt/icons does not exist in Windows so using it is a problem
+Added /opt/icons/ for Linux users

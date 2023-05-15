@@ -11,7 +11,7 @@ for file in glob('ic_*'): # ignore hidden file (images/.DS_Store) from iteration
     image = Image.open(file).convert('RGB')
     image.rotate(270)
     image.resize(size)
-    image.save('{}.jpeg'.format(filename))
+    image.save('/opt/icons/{}.jpeg'.format(filename))
 print('OK')
 
     
